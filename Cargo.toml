@@ -1,0 +1,19 @@
+[package]
+name = "rich-editor-rs"
+version = "0.0.0"
+edition = "2021"
+authors = ["Davi Reis <reis.davi11010@gmail.com>"]
+license = "MIT"
+description = "A simple rich text editor to run in your terminal."
+readme = "README.md"
+homepage = "https://github.com/dreisss/rich-editor.rs"
+repository = "https://github.com/dreisss/rich-editor.rs"
+keywords = ["rich-text", "editor", "rich-text-editor"]
+categories = ["command-line-utilities", "text-editors"]
+autobins = false
+
+[dependencies]
+
+[[bin]]
+name = "rich"
+path = "src/main.rs"
